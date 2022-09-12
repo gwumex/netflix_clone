@@ -94,6 +94,9 @@ h2{
     font-size: 2.2rem;
     font-weight: 300;
 }
+p{
+    font-size: 3rem;
+}
 .unlimited{
     width: 80%;
     margin: 0;
@@ -142,8 +145,45 @@ h2{
 }
 .divider{
     height: 0.8rem;
-    background-color: rgba(128, 128, 128, 0.268);
+    background-color: rgba(128, 128, 128, 0.097);
 }
+.faq{
+    padding: 2.5rem 10rem;
+    text-align: center;
+}
+.questions{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.question{
+    background-color: rgba(128, 128, 128, 0.234);
+    margin-bottom: 0%;
+    padding: 2.5rem;
+    height: 4rem;
+    
+}
+.faqBtn{
+    font-size: 3rem;
+    color: #ffffff;
+    display: inline;
+    float: left;
+}
+.answer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(128, 128, 128, 0.234);
+    padding: 2.5rem;
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
+
 @media only screen and (max-width: 800px) {
     html {
         font-size: 8px;
@@ -174,7 +214,7 @@ h2{
         margin-top: 1.5rem;
     }
     .input{
-        padding: 1.5rem 0.rem;
+        padding: 1.5rem 0.5rem;
         width: 90%;
         margin-right: 0;
     }
