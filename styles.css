@@ -15,7 +15,13 @@ body{
 a{
     text-decoration: none;
     display: inline;
-    color: red;
+}
+
+
+.container{
+   
+    flex-direction: column;
+    justify-content: center;
 }
 
 .frontPage{
@@ -39,6 +45,9 @@ a{
 
 .logo {
     font-size: 3.5rem;
+}
+.nav > a{
+    color: red;
 }
 
 .menu{
@@ -148,8 +157,13 @@ p{
     background-color: rgba(128, 128, 128, 0.097);
 }
 .faq{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
     padding: 2.5rem 10rem;
     text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
 }
 .questions{
     width: 100%;
@@ -159,10 +173,9 @@ p{
 
 .question{
     background-color: rgba(128, 128, 128, 0.234);
-    margin-bottom: 0%;
+    margin: 1rem 1rem;
     padding: 2.5rem;
-    height: 4rem;
-    
+    height: 4rem;   
 }
 .faqBtn{
     font-size: 3rem;
@@ -180,10 +193,49 @@ p{
 .show{
     display: block;
 }
+.faqEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    margin-top: 3rem;
+    padding: 2.5rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.link > a{
+    color: gray;
+    font-size: 1.5rem;
+}
+.linkgroup{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    word-wrap: break-word;
+    justify-items: start;
+    padding: 0;
+}
 
-
-
+.footer > select{
+ width: 15rem;
+}
+.link{
+    padding: 0;
+}
+.link > a:hover{
+    color: #ffffff;
+}
+.span{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.span > a{
+    color:#ffffff
+}
 @media only screen and (max-width: 800px) {
     html {
         font-size: 8px;
@@ -240,6 +292,13 @@ p{
         width: 100%;
         float: left;
         padding: 0;
+    }
+    .linkgroup{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+       
+        grid-row-gap: 1rem;
+        word-wrap: break-word;
     }
 
   }
