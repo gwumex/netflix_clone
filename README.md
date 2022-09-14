@@ -1,4 +1,4 @@
-<h1># netflix_clone</h1>
+<h1># Netflix_clone</h1>
 <p># A cloned version of netflix landing page, created from scratch using:</p>
 <ul>
 <li>CSS</li>
